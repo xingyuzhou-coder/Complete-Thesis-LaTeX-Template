@@ -1,0 +1,40 @@
+%!TEX root = ../thesis.tex
+% ******************************* Thesis Appendix B ****************************
+\chapter{MATLAB Code for Theoretical Model} 
+
+\section*{Guidence}
+
+This MATLAB code is the programming realization of the theoretical model developed in \autoref{ch:Theoretical Models of MEMS Cantilever Devices based on AlGaN/AlN/GaN Heterostructure}. It consists of main program (Main.m), parameter subprogram (Parameter.m), Fermi level subprogram (Fermi\_level.m), Poisson equation subprogram (Poisson.m), Schrodinger equation subprogram (Schrodinger.m), device structure subprogram (Structure.m), and piezoelectric polarization charge subprogram (Polaration.m). Given the strain states obtained from COMSOL Multiphysics, the corresponding polarization charge can be calculated by the polarization charge subprogram and substituted into the structure subprogram. The structure subprogram defines the heterostructure of AlGaN/AlN/GaN, and can be modified according to the designed device structure. Finally, the corresponding energy band, carrier distribution and 2DEG concentration can be solved through the main program.
+
+Here only main program (Main.m) is attached for reference. All intellectual property rights reserved. Any request for full program for academic research is warmly welcome, and could contact me via email xingyu.zhou.phd@gmail.com.
+\clearpage
+
+\section*{MATLAB M Files}
+
+\subsection*{Main.m}
+
+\lstinputlisting{Appendix2/code/Main.m}
+
+%\subsection*{Parameters.m}
+
+%\lstinputlisting{Appendix2/code/Parameter.m}
+
+%\subsection*{Fermi\_level.m}
+
+%\lstinputlisting{Appendix2/code/Fermi_level.m}
+
+%\subsection*{Poisson.m}
+
+%\lstinputlisting{Appendix2/code/Poisson.m}
+
+%\subsection*{Schrodinger.m}
+
+%\lstinputlisting{Appendix2/code/Schrodinger.m}
+
+%\subsection*{Structure.m}
+
+%\lstinputlisting{Appendix2/code/Structure.m}
+
+%\subsection*{Polaration.m}
+
+%\lstinputlisting{Appendix2/code/Polaration.m}

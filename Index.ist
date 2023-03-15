@@ -1,0 +1,9 @@
+delim_0 "}\\IndexDotfill "
+delim_1 "\\IndexDotfill "
+headings_flag 1
+heading_prefix "  \\IndexHeading{"
+heading_suffix "}\n"
+
+
+item_0 "\n \\item {\\bfseries " 
+item_x1 "}\n \\subitem "

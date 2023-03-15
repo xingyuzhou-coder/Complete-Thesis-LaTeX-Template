@@ -1,0 +1,52 @@
+\chapter{Discussion and Outlook}
+\label{ch:Discussion and Outlook}
+
+% **************************** Define Graphics Path **************************
+\ifpdf
+    \graphicspath{{Chapter5/Figs/Raster/}{Chapter5/Figs/PDF/}{Chapter5/Figs/}}
+\else
+    \graphicspath{{Chapter5/Figs/Vector/}{Chapter5/Figs/}}
+\fi
+
+
+\section{Conclusions}
+
+This thesis systematically studies the theoretical modeling and fabrication of III-V nitride power MEMS devices based on the piezotronics \index{Piezotronics} effect. We established a semi-classical physical model of the MEMS cantilever \index{Cantilever} device based on AlGaN/AlN/GaN heterojunction, and fabricated a strain-controlled power MEMS device (SPD) and a magnetic field-controlled power MEMS device (MPD), thus providing a theoretical framwork and novel device structure for the research of power MEMS devices based on AlGaN/AlN/GaN heterojunctions. The main conclusions of this thesis are as follows:
+
+\begin{itemize}
+	\item [1.] Theoretical model of power MEMS devices
+	
+In this study, a semi-classical physical model of a MEMS cantilever device based on AlGaN/AlN/GaN heterojunction was established according to piezotronics effect. Combined with piezoelectric constitutive equation, biaxial stress model, finite element analysis of GaN cantilever material mechanics, and self-consistent coupling model of one-dimensional Schrödinger-Poisson equation, the modulation characteristics of external stress on the energy band of AlGaN/AlN/GaN heterojunction and the electrical transport properties of MEMS devices are calculated, which provides a theoretical basis for the development of SPD and MPD, as well as the theoretical guidance for the development of new power MEMS devices based on AlGaN/AlN/GaN heterojunction cantilever \index{Cantilever} structures.\\
+
+
+  \item [2.] Manufacturing of power MEMS devices
+
+In the study, the manufacture of GaN power MEMS devices from epitaxial growth wafers to well-functional devices have been systematically studied. We introduced the main nanofabrication and characterization equipment, including epitaxial growth, dry etching, photolithography, thin film deposition, plasma cleaning, Raman spectroscopy, scanning electron microscopy, transmission electron microscopy, etc, and briefly introduced their important role in GaN power MEMS research, as well as the corresponding process design and key parameters. Furthermore, we developed the corresponding process parameters and their process integration, thus realizing the whole process from GaN wafer to well-functional GaN power MEMS device.\\
+
+\item [3.] Strain-controlled power MEMS devices
+
+In this study, we propose a strain-regulated power MEMS device (SPD) inspired by the human knee-jerk reflex mechanism. This is a new type of MEMS device based on the cantilever \index{Cantilever} structure of AlGaN/AlN/GaN heterojunction, which can directly control the output power density through external mechanical stimulation, realizing ultra-high output power density under weak force (\unit{\mN}) control ($\times$ \unit{\W\per\square\mm}). The maximum output power density of the SPD increases from \num{2.30e3} \unit{\W\per\square\mm} to \num{2.72e3} \unit{\W\per\square\mm} under external strain of 0 \sim 16 \unit{\mN}, showing good response sensitivity. At the same time, similar to the ultimate control ability of the brain in the knee-jerk reflex mechanism, the gate voltage of the SPD can control the output power in a wider range, thus combining the two-dimensional control advantage of both small-scale external strain control and large-scale programmable gate voltage control. SPD is well suited for future AI applications including but not limited to autopilots, intelligent robotics and human-machine interface technologies.\\
+
+\item [4.] Magnetosensory power MEMS devices 
+
+In this study, by depositing a magnetic thin film on the front half of the cantilever \index{Cantilever} of the SPD, the magnetic field-regulated power MEMS device was fabricated. This is a new type of power MEMS device based on the cantilever structure of AlGaN/AlN/GaN heterojunction, which can directly control the output power through an external magnetic field, realizing a high output power density (85.8 \unit{\W\per\square\mm}) under the control of the magnetic field (\unit{\milli\tesla}). Under the action of the external magnetic field of 0 \sim 400 \unit{\milli\tesla}, when the gate voltage is -5 \unit{\V}, the saturation output power density of MPD increases quasi-linearly from 18.04 \unit{\W\per\square\mm} to 18.94 \unit{\W\per\square\mm}, showing good magnetic field-power modulation characteristics. At the same time, similar to the voltage signal between neuron synapses that ultimately determines the size of neuron current, the gate voltage of MPD can regulate the output power in a wider range, so it combines two-dimensional control advantage of small-scale external magnetic field control and large-scale programmable gate control. This work not only provides physical electronics insights into the working mechanism of magnetic sensing neurons in the biological sense, but also promote the development of various neuroelectronic devices.
+\end{itemize}
+
+
+\section{Future work}
+
+\begin{itemize}
+	\item [1.] Improvement of MEMS fabrication process
+	
+Develop new micro-nano processing technology to improve the electrical properties of MEMS devices based on AlGaN/AlN/GaN heterojunction cantilever \index{Cantilever} structures. In the follow-up research, the Si substrate of MEMS devices needs to be removed, and the MEMS devices can be transferred to flexible substrates to further fabricate flexible power MEMS devices, which can be applied to wearable electronic devices and robots in the future.
+	
+	\item [2.] Optimization of the theoretical model 
+
+The semi-classical physical model established in this thesis takes many approximations when analyzing the strain in the MEMS active region. The sampling point setting of the finite element analysis of COMSOL Multiphysics approximates that the active area is uniformly strained. In the follow-up research, the non-uniform strain of the MEMS active region needs to be mathematically analyzed to establish a more complete theoretical model.
+	
+	\item [3.] In-depth analysis of physical mechanisms
+	
+Since the bending strain of the non-centrosymmetric GaN will also produce the flexoelectric effect, this study can be further extended to the deep research of the bending strain and the flexoelectric effect of the power MEMS device based on the cantilever structure of AlGaN/AlN/GaN heterojunction. By combining the principles of piezoelectric effect and flexoelectric effect, the physical mechanisms of MEMS devices with cantilever structure can be studied more deeply \cite{bhaskar2016flexoelectric,yudin2013fundamentals,
+zubko2013flexoelectric,yan2013flexoelectric,shu2019flexoelectric,zhai1flexoelectronics,wang2020flexoelectronics}.
+	
+\end{itemize}
