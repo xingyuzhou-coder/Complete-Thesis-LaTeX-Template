@@ -18,9 +18,11 @@ Xingyu Zhou
 
 ## Recommended build system
 
-XeLatex  BibTex
+XeLaTeX  BibTex
 
-Makeidx.  Nomenclature
+Makeidx  Nomenclature
+
+
 
 
 
@@ -319,17 +321,17 @@ the bottom of the page. Pagewise line numbering is added on every page. `draft` 
 * `default (leave empty)`: For Page Numbers in Header (Left Even, Right Odd) and Chapter Name in Header (Right Even) and Section #. Section Name (Left Odd). Blank Footer.
 
         Header (Even)   : 4                                                 Introduction
-    
+        
         Header (Odd)    : 1.2 Section Name 		   			                5
-    
+        
         Footer 		    : Empty
 
 * `PageStyleI`: For Page Numbers in Header (Left Even, Right Odd) and Chapter Name next to the Page Number on Even Side (Left Even). Section Number and Section Name and Page Number in Header on Odd Side (Right Odd). Footer is empty. Layout:
 
         Header (Even)   : 4 | Introduction
-    
+        
         Header (Odd)    :                         			                1.2 Section Name | 5
-    
+        
         Footer 		    :                               Empty
 
 * `PageStyleII`: Chapter Name on Even Side (Left Even) in Header. Section Number and Section Name in Header on Odd Side (Right Odd). Page numbering in footer. Layout:
