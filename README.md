@@ -1,12 +1,28 @@
-## Notes by Xingyu Zhou
+# Complete Thesis LaTeX Template
 
-This template is forked from Krishna Kumar's CUED PhD thesis template and made modifications to meet personal requirements. Please feel free to share and clone it.
 
-##Recommended built
+
+> A complete XeLaTeX  thesis template for academic researchers.
+>
+> [![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
+
+## Notes
+
+This template is forked from Krishna Kumar's CUED PhD thesis template and made modifications to meet my personal requirements. Please feel free to share and clone it.
+
+Unlike other LaTeX templates that only give the basic framework, in order to better help learners, this template is a complete clone of my master's thesis. Learners can learn almost all the functions and knowledge that will be used in dissertation writing.
+
+## Author
+
+Xingyu Zhou
+
+## Recommended build system
 
 XeLatex  BibTex
 
 Makeidx.  Nomenclature
+
+
 
 
 CUED PhD thesis template
@@ -303,25 +319,25 @@ the bottom of the page. Pagewise line numbering is added on every page. `draft` 
 * `default (leave empty)`: For Page Numbers in Header (Left Even, Right Odd) and Chapter Name in Header (Right Even) and Section #. Section Name (Left Odd). Blank Footer.
 
         Header (Even)   : 4                                                 Introduction
-
+    
         Header (Odd)    : 1.2 Section Name 		   			                5
-
+    
         Footer 		    : Empty
 
 * `PageStyleI`: For Page Numbers in Header (Left Even, Right Odd) and Chapter Name next to the Page Number on Even Side (Left Even). Section Number and Section Name and Page Number in Header on Odd Side (Right Odd). Footer is empty. Layout:
 
         Header (Even)   : 4 | Introduction
-
+    
         Header (Odd)    :                         			                1.2 Section Name | 5
-
+    
         Footer 		    :                               Empty
 
 * `PageStyleII`: Chapter Name on Even Side (Left Even) in Header. Section Number and Section Name in Header on Odd Side (Right Odd). Page numbering in footer. Layout:
 
         Header (Even)   : Introduction
-
+        
         Header (Odd)    : 			   				                        1.2 Section Name
-
+        
         Footer[centered]:                           	3
 
 ### Changing the visual style of chapter headings
